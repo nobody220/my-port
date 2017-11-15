@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="Project" data-ng-controller="ProjectCtrl as prctrl">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="">
+    		<meta name="description" content="">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Project</title>
+        <link rel="stylesheet" href="css/app-custom.css">
+
+        <!-- AWESOME TEMPLATE -->
+        <link rel="stylesheet" href="css/awesome_portfolio/animate.min.css">
+    		<link rel="stylesheet" href="css/awesome_portfolio/bootstrap.min.css">
+        <link rel="stylesheet" href="css/awesome_portfolio/font-awesome.css">
+    		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+    		<link rel="stylesheet" href="css/awesome_portfolio/templatemo-style.css">
+        <link rel="stylesheet" href="css/awesome_portfolio/style.css">
+    </head>
+
+    <body>
+        <base href="/">
+        <?php echo $this->getContent(); ?>
+        <div ui-view class="content-page" id="initial-page-content"></div>
+
+        <script type="text/javascript">
+            var baseUrl =   '<?php echo $this->baseurl; ?>';
+        </script>
+
+        <script type="text/javascript" src="vendors/bower_components/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="vendors/bower_components/bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="vendors/bower_components/angular/angular.min.js"></script>
+        <script type="text/javascript" src="vendors/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+        <script type="text/javascript" src="vendors/bower_components/oclazyload/dist/ocLazyLoad.min.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript" src="js/config.js"></script>
+        <script type="text/javascript" src="js/controllers/main.js"></script>
+        <script type="text/javascript" src="vendors/bower_components/temporary/classie.js"></script>
+
+        <!-- AWESOME TEMPLATE -->
+        <script type="text/javascript" src="js/awesome_portfolio/jquery.singlePageNav.min.js"></script>
+    		<script type="text/javascript" src="js/awesome_portfolio/typed.js"></script>
+    		<script type="text/javascript" src="js/awesome_portfolio/wow.min.js"></script>
+    		<script type="text/javascript" src="js/awesome_portfolio/custom.js"></script>
+    </body>
+</html>

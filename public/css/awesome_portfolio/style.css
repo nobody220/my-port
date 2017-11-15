@@ -1,0 +1,96 @@
+span,
+p{
+  cursor: default;
+}
+
+span,
+a{
+  /* Firefox */
+  -moz-transition: all 0.5s ease;
+  /* WebKit */
+  -webkit-transition: all 0.5s ease;
+  /* Opera */
+  -o-transition: all 0.5s ease;
+  /* Standard */
+  transition: all 0.5s ease;
+}
+
+*{
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+/********************************************
+*                                           *
+*              C O N T A C T                *
+*                                           *
+*********************************************/
+
+span.email{
+  padding: 0;
+}
+
+span.email:hover{
+  color: #28a7e9;
+  cursor: pointer;
+}
+
+/********************************************
+*                                           *
+*                 H O M E                   *
+*                                           *
+*********************************************/
+
+.custom-cover{
+  position: absolute;
+  top: 128px;
+  width: 100%;
+  height: calc(100vh - 128px);
+  object-fit: cover;
+  filter: blur(3px) grayscale(1);
+}
+
+.custom-profile{
+  display: block;
+  margin: auto;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+/********************************************
+*                                           *
+*                A B O U T                  *
+*                                           *
+*********************************************/
+
+.media-body p{
+  font-size: 18px;
+}
+
+.about-my-name{
+  color: #28a7e9;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.about-my-name:hover{
+  color: #FFF;
+}
+
+.progress-box{
+  width: 70%;
+  float: right;
+}
+
+.progress-box .progress{
+  margin-bottom: 5px !important;
+}

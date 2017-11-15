@@ -1,0 +1,325 @@
+<div ng-controller="PortfolioCtrl as pctrl">
+	<div id="top">
+
+    <!-- start preloader -->
+		<div class="preloader">
+			<div class="sk-spinner sk-spinner-wave">
+   	 		<div class="sk-rect1"></div>
+   			<div class="sk-rect2"></div>
+   			<div class="sk-rect3"></div>
+  	 		<div class="sk-rect4"></div>
+  			<div class="sk-rect5"></div>
+   		</div>
+  	</div>
+    	<!-- end preloader -->
+
+      <!-- start header -->
+      <header>
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4 col-sm-4 col-xs-12">
+                      <p><i class="fa fa-phone"></i><span>Phone</span>+639 30-262-3570</p>
+                  </div>
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                      <p><i class="fa fa-envelope-o"></i><span>Email</span><span class="email" ng-click="gotoContact();">ehddvercabiten25@gmail.com</span></p>
+                  </div>
+              </div>
+          </div>
+      </header>
+      <!-- end header -->
+
+      <!-- start navigation -->
+  		<nav class="navbar navbar-default templatemo-nav" role="navigation">
+  			<div class="container">
+  				<div class="navbar-header">
+  					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+  						<span class="icon icon-bar"></span>
+  						<span class="icon icon-bar"></span>
+  						<span class="icon icon-bar"></span>
+  					</button>
+  					<a href="#about" class="navbar-brand"><i class="fa fa-user-circle-o color-primary"></i>&nbsp;Nobody</a>
+  				</div>
+  				<div class="collapse navbar-collapse">
+  					<ul class="nav navbar-nav navbar-right">
+  						<li class="nav-home"><a href="#top">HOME</a></li>
+  						<li class="nav-about"><a href="#about">ABOUT</a></li>
+  						<li class="nav-experience"><a href="#experience">EXPERIENCE</a></li>
+  						<li class="nav-certificate"><a href="#portfolio">CERTIFICATES</a></li>
+  						<li class="nav-contact"><a href="#contact">CONTACT</a></li>
+  					</ul>
+  				</div>
+  			</div>
+  		</nav>
+  		<!-- end navigation -->
+
+      <!-- start home -->
+    	<section id="home">
+    		<div class="container">
+    			<div class="row">
+						<img class="custom-cover" src="css/images/cover-ko-2.jpg" alt="My Cover">
+						<img class="custom-profile wow fadeIn" data-wow-offset="50" data-wow-delay="0.9s" src="css/images/profile-ko.jpg" alt="My Image">
+    				<div class="col-md-offset-2 col-md-8 text-center">
+    					<h1 class="wow fadeIn" data-wow-offset="50" data-wow-delay="0.9s">
+								<span class="color-white" style="border-bottom:3px solid #FFF;">&#69;&#104;&#100;&#100;&#118;&#101;&#114;&#32;&#67;&#97;&#98;&#105;&#116;&#101;&#110;</span>
+							</h1>
+    					<div class="element">
+								<div class="sub-element">&quot;I know that I am intelligent, because I know that I know nothing.&quot; - Socrates</div>
+								<div class="sub-element">&quot;It is the quality of our work which will please God and not the quantity.&quot; - Mahatma Gandhi</div>
+                <div class="sub-element">&quot;The only source of knowledge is experience.&quot; - Einstein</div>
+								<div class="sub-element">&quot; I have my ambition, you have your ambition too. Which means you should just keep walking forward towards that goal.&quot; - Monkey D. Luffy</div>
+              </div>
+    				</div>
+    			</div>
+    		</div>
+    	</section>
+    	<!-- end home -->
+
+      <!-- start about -->
+  		<section id="about" style="height:100vh;">
+  			<div class="container">
+  				<div class="row">
+  					<div class="col-md-12">
+    					<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">ABOUT <span>ME</span></h2>
+    				</div>
+  					<div class="col-md-12 col-sm-12 col-xs-12 wow fadeInUp" data-wow-offset="50" data-wow-delay="0.9s">
+  						<div class="media">
+  							<div class="media-body">
+  								<p>I'm <span class="about-my-name" ng-click="gotoContact();">&#69;&#104;&#100;&#100;&#118;&#101;&#114;&#32;&#67;&#97;&#98;&#105;&#116;&#101;&#110;,</span>
+										I decide to beacame a programmer because I loved being challenge. Back then, when I was on high school, my teacher
+										told me that if I want to improve my critical thinking, he advised me to take up Computer Science course. At first,
+										it's not that easy. <span style="color:#28a7e9; font-weight:bold;">Patience</span> and <span style="color:#28a7e9; font-weight:bold;">Passion</span> is a must in programming. If you don't have the passion your patience
+										will not last.
+									</p>
+  							</div>
+  						</div>
+  					</div>
+
+						<div class="progress-box wow fadeInRight" data-wow-offset="50" data-wow-delay="0.2s">
+              <h5>C# <span class="color-heading pull-right">87%</span></h5>
+							<div class="progress" style="height:10px;">
+						    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100" style="width:87%"></div>
+						  </div>
+	          </div>
+						<div class="progress-box wow fadeInRight" data-wow-offset="50" data-wow-delay="0.4s">
+              <h5>JAVA <span class="color-heading pull-right">60%</span></h5>
+							<div class="progress" style="height:10px;">
+						    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%"></div>
+						  </div>
+	          </div>
+						<div class="progress-box wow fadeInRight" data-wow-offset="50" data-wow-delay="0.6s">
+              <h5>HTML <span class="color-heading pull-right">80%</span></h5>
+							<div class="progress" style="height:10px;">
+						    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%"></div>
+						  </div>
+	          </div>
+						<div class="progress-box wow fadeInRight" data-wow-offset="50" data-wow-delay="0.8s">
+              <h5>PHP <span class="color-heading pull-right">70%</span></h5>
+							<div class="progress" style="height:10px;">
+						    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%"></div>
+						  </div>
+	          </div>
+						<div class="progress-box wow fadeInRight" data-wow-offset="50" data-wow-delay="0.9s">
+              <h5>JAVASCRIPT / JQUERY <span class="color-heading pull-right">88%</span></h5>
+							<div class="progress" style="height:10px;">
+						    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width:88%"></div>
+						  </div>
+	          </div>
+
+  				</div>
+  			</div>
+  		</section>
+  		<!-- end about -->
+
+      <!-- start team -->
+    	<section id="experience" style="height: calc(100vh - 85px);">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-md-12">
+    					<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">OTHER <span>EXPERIENCES</span></h2>
+    				</div>
+						<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.6s" style="font-size: 16px;">
+    					<div class="team-wrapper">
+    							<div class="team-des">
+    								<h4><i class="fa fa-camera"></i> PHOTOGRAPHER</h4>
+    								<p>When I was on high school, my teacher always asked me to assist him on his photobooth business. We go to a birthday, wedding, and baptism. At first, I'm only helping on the setup of the equipments until he gave me the camera to take in charge.</p>
+    							</div>
+    					</div>
+    				</div>
+						<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.6s" style="font-size: 16px;">
+    					<div class="team-wrapper">
+    							<div class="team-des">
+    								<h4><i class="fa fa-photo"></i> PHOTO EDITING</h4>
+    								<p>Restoring my grandmother's photo when sha was in her 20's. It is printed in a mug as a gift for her in her 70th birthday.</p>
+										<p>Creating a simple picture vector of a person using photoshop as a present gift on their bifthdays. :)</p>
+    							</div>
+    					</div>
+    				</div>
+    				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.3s" style="font-size: 16px;">
+    					<div class="team-wrapper">
+    							<div class="team-des">
+    								<h4><i class="fa fa-video-camera"></i> VIDEO EDITING</h4>
+    								<p>Creating a short video film about zombies, wherein the videos are captured in pieces then compiling it as one with visual and sound effects.</p>
+    							</div>
+    					</div>
+    				</div>
+    				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.3s" style="font-size: 16px;">
+    					<div class="team-wrapper">
+    							<div class="team-des">
+    								<h4><i class="fa fa-headphones"></i> REMIX MUSIC</h4>
+    								<p>Mixing and editing four to five songs with sound effects for our cheerdance competition during my college life at STI College - Fairview.</p>
+    							</div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</section>
+    	<!-- end team -->
+
+    	<!-- start portfolio -->
+    	<section id="portfolio">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-md-12">
+    					<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s"><span>AWESOME</span> CERTIFICATES</h2>
+    				</div>
+    				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+              <div class="portfolio-thumb">
+		   					<img src="css/images/portfolio-img1.jpg" class="img-responsive" alt="portfolio img 1">
+                  <div class="portfolio-overlay">
+                      <h4>Project One</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
+                      <a href="#" class="btn btn-default">DETAIL</a>
+                  </div>
+              </div>
+    				</div>
+    				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+                        <div class="portfolio-thumb">
+                           <img src="css/images/portfolio-img2.jpg" class="img-responsive" alt="portfolio img 2">
+                                <div class="portfolio-overlay">
+                                    <h4>Project Two</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
+                                    <a href="#" class="btn btn-default">DETAIL</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+                        <div class="portfolio-thumb">
+                           <img src="css/images/portfolio-img3.jpg" class="img-responsive" alt="portfolio img 3">
+                                <div class="portfolio-overlay">
+                                    <h4>Project Three</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
+                                    <a href="#" class="btn btn-default">DETAIL</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+                        <div class="portfolio-thumb">
+                           <img src="css/images/portfolio-img4.jpg" class="img-responsive" alt="portfolio img 4">
+                                <div class="portfolio-overlay">
+                                    <h4>Project Four</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
+                                    <a href="#" class="btn btn-default">DETAIL</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+                        <div class="portfolio-thumb">
+                           <img src="css/images/portfolio-img3.jpg" class="img-responsive" alt="portfolio img 3">
+                                <div class="portfolio-overlay">
+                                    <h4>Project Five</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
+                                    <a href="#" class="btn btn-default">DETAIL</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+                        <div class="portfolio-thumb">
+                           <img src="css/images/portfolio-img4.jpg" class="img-responsive" alt="portfolio img 4">
+                                <div class="portfolio-overlay">
+                                    <h4>Project Six</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
+                                    <a href="#" class="btn btn-default">DETAIL</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+                        <div class="portfolio-thumb">
+                           <img src="css/images/portfolio-img1.jpg" class="img-responsive" alt="portfolio img 1">
+                                <div class="portfolio-overlay">
+                                    <h4>Project Seven</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
+                                    <a href="#" class="btn btn-default">DETAIL</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+                        <div class="portfolio-thumb">
+                           <img src="css/images/portfolio-img2.jpg" class="img-responsive" alt="portfolio img 2">
+                                <div class="portfolio-overlay">
+                                    <h4>Project Eight</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
+                                    <a href="#" class="btn btn-default">DETAIL</a>
+                                </div>
+                        </div>
+                    </div>
+    			</div>
+    		</div>
+    	</section>
+    	<!-- end portfolio -->
+
+    	<!-- start contact -->
+    	<section id="contact">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-md-12">
+    					<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">CONTACT <span>NOBODY</span></h2>
+    				</div>
+    				<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.9s">
+    					<form action="#" method="post">
+    						<label>NAME</label>
+    						<input name="fullname" type="text" class="form-control" id="fullname">
+
+                            <label>EMAIL</label>
+    						<input name="email" type="email" class="form-control" id="email">
+
+                            <label>MESSAGE</label>
+    						<textarea name="message" rows="4" class="form-control" id="message"></textarea>
+
+                            <input type="submit" class="form-control">
+    					</form>
+    				</div>
+    				<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight" data-wow-offset="50" data-wow-delay="0.6s">
+    					<address>
+    						<p class="address-title">OUR ADDRESS</p>
+    						<span>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie.</span>
+    						<p><i class="fa fa-phone"></i> 010-020-0340</p>
+    						<p><i class="fa fa-envelope-o"></i> awesome@company.com</p>
+    						<p><i class="fa fa-map-marker"></i> 663 New Walk Roadside, Birdeye View, GO 11020</p>
+    					</address>
+    					<ul class="social-icon">
+    						<li><h4>WE ARE SOCIAL</h4></li>
+    						<li><a href="#" class="fa fa-facebook"></a></li>
+    						<li><a href="#" class="fa fa-twitter"></a></li>
+    						<li><a href="#" class="fa fa-instagram"></a></li>
+    					</ul>
+    				</div>
+    			</div>
+    		</div>
+    	</section>
+    	<!-- end contact -->
+
+      <!-- start copyright -->
+      <footer id="copyright">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12 text-center">
+                      <p class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">
+                      Copyright &copy; 2017 &#69;&#104;&#100;&#100;&#118;&#101;&#114;&#32;&#67;&#97;&#98;&#105;&#116;&#101;&#110;</p>
+                  </div>
+              </div>
+          </div>
+      </footer>
+      <!-- end copyright -->
+
+	</div>
+</div>
